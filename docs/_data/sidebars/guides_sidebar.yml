@@ -1,0 +1,71 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: File API Documentation
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage  
+
+    - title: API Statuses
+      url: /guides_api_statuses.html
+      output: web, pdf      
+
+    - title: Life cycle policy
+      url: /guides_life_cycle_policy.html
+      output: web, pdf
+      
+    - title: Usage limits
+      url: /guides_usage_limits.html
+      output: web, pdf  
+
+    - title: Request headers and responses
+      url: /guides_request_headers_and_responses.html
+      output: web, pdf
+
+    - title: Support
+      url: /guides_support.html
+      output: web, pdf
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+
+    - title: Getting started
+      url: /guides_getting_started.html
+      output: web, pdf  
+    
+    - title: Update App status to Production
+      url: /guides_update_status_prod.html
+      output: web, pdf  
+
+  - title: Troubleshooting
+    output: web, pdf
+    folderitems:
+
+    - title: Troubleshooting
+      url: /guides_troubleshooting.html
+      output: web, pdf
+
+# Copyright 2021 Google LLC
